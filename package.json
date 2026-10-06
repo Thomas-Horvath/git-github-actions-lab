@@ -1,0 +1,16 @@
+{
+  "name": "git-github-actions-lab",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev" : "node src/calculator.js"  
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
