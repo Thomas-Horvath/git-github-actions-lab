@@ -5,8 +5,14 @@ function add(a, b) {
   return a + b;
 }
 
-console.log(add(a, b));
+function subtract(a, b) {
+  return a - b;
+}
+
+console.log("add: ", add(a, b));
+console.log("subtract: ", subtract(a, b));
 
 module.exports = {
   add,
+  subtract
 };
