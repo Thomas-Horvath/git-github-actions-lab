@@ -13,3 +13,4 @@ npm run dev -- 6 8   // a két szám itt adható meg amit összeadunk
 
 ## Features
 
+reflog paractice
