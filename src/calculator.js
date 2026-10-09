@@ -6,7 +6,13 @@ function add(a, b) {
 }
 
 console.log(add(a, b));
+console.log(modulo(a, b));
+
+function modulo(a, b) {
+  return a % b;
+}
 
 module.exports = {
   add,
+  modulo
 };
